@@ -52,7 +52,9 @@ WHERE ograd IN ('Fidan', 'İsmail','Leyla');
 
 12) Öğrenci tablosundaki öğrencilerden adı A, D ve K ile başlayan öğrencileri listeleyiniz.
 SELECT * FROM ogrenci
-WHERE ograd like 'A%' OR 'D%' OR 'K%';
+WHERE ograd like 'A%' 
+OR ograd like 'D%' 
+OR ograd like 'K%';
 
 
 13) Öğrenci tablosundaki sınıfı 9A olan Erkekleri veya sınıfı 9B olan kızların adını, soyadını, sınıfını ve cinsiyetini listeleyiniz.
